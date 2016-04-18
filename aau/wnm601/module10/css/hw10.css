@@ -1,0 +1,30 @@
+body {
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	color: yellow;
+	font-family: sans-serif;
+	margin-bottom: 50px;
+}
+
+.tab {
+	background: grey;
+    padding: 6px;
+    margin: 0;
+    display: inline;
+    border: dotted;
+    border-width: 1px 1px 0 1px;
+    margin: 0 10px 0 0;
+}
+
+.content-list {
+	background: grey;
+	margin-top: 5px;
+	padding: 10px;
+    border: solid;
+    border-width: 1px 1px 1px 1px;
+}
