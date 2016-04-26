@@ -1,0 +1,70 @@
+body {
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	color: yellow;
+	margin-bottom: 50px;
+    font-size: 100px;
+    font-family: 'Tangerine', serif;
+}
+
+.tab {
+	background: grey;
+    padding: 6px;
+    margin: 0;
+    display: inline;
+    border: dotted;
+    border-width: 1px 1px 0 1px;
+    margin: 0 10px 0 0;
+    color: black;
+}
+.tab:hover {
+	cursor:pointer;
+	background: lightyellow;
+}
+.tab.active {
+	background: yellow;
+}
+
+.content-list {
+	background: grey;
+	margin-top: 5px;
+	padding: 10px;
+    border: solid;
+    border-width: 1px 1px 1px 1px;
+}
+
+.content {
+	display: none;
+}
+.content.active {
+	display: block;
+}
+
+h2 {
+	color: yellow;
+}
+
+.big-image-sf img {
+	width:600px;
+	height: 300px;
+}
+
+.small-images-sf img {
+	width: 150px;
+	height: 100px;
+}
+
+.big-image-d img {
+	width:450px;
+	height: 400px;
+}
+
+.small-images-d img {
+	width: 150px;
+	height: 100px;
+}
