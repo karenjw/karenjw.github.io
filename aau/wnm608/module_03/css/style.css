@@ -219,7 +219,7 @@ tr:nth-child(even){
 }
 .image-well {
 	background-position: center;
-	background-size: cover;
+	background-size: auto;
 	background-attachment: fixed;
 	text-align: right;
 	margin-top: 1.5em;
