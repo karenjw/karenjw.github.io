@@ -42,7 +42,7 @@ li {
 	text-align: center;
 }
 .big-image img {
-	width: 450px;
+	max-width: 100%;
 	padding-top: 2em;
 }
 .small-images img {
