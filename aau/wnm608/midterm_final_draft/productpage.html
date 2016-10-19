@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Halloween Winnie the Pooh &amp; Piglet</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/productpage.css">
+	<script src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<script src="js/productpage.js"></script>
+	<script src="js/menu.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="container clearfix">
+			<div class="logo">
+				<a href="home.html">
+					<img src="images/logo.png">
+				</a>
+			</div>
+
+			<nav class="nav clearfix">
+				<a id="menu-toggle" class="anchor-link" href="#">&#9776;</a>
+				<ul class="simple-toggle" id="menu">
+					<li><a href="loginpage.html">Login</a></li>
+					<li><a href="mailto:karen.1121.funny@gmail.com">Contact Us</a></li>
+					<li><a href="cart.html">Cart</a></li>
+				</ul>	
+			</nav>
+		</div>
+
+		<div class="container">
+			<div class="search">
+				<form>
+					<input type="text" name="search" placeholder="Search...">
+				</form>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row sub-nav">
+			<div class="col-md-4 col-lg-4">&nbsp;</div>
+			<div class="col-sm-12 col-md-2 col-lg-2"><li><a href="home.html">HOME</a></li></div>
+			<div class="col-sm-12 col-md-2 col-lg-2"><li><a href="newinpage.html">NEW!</a></li></div>
+			<div class="col-md-4 col-lg-4">&nbsp;</div>
+		</div>
+	</div>
+
+<!-- product content -->
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-6 center">
+				<div class="big-image">
+					<img src="images/small1.jpg" title="Halloween Winnie &amp; Piglet">
+				</div>
+				<div class="small-images">
+					<div class="row">
+						<div class="col-sm-4 col-md-2 center">
+							<img src="images/small1.jpg" data-src="small1.jpg">
+						</div>
+						<div class="col-sm-4 col-md-2 center">
+							<img src="images/bigimage.jpg" data-src="bigimage.jpg">
+						</div>
+						<div class="col-sm-4 col-md-2 center">
+							<img src="images/small2.jpg" data-src="small2.jpg">
+						</div>
+						<div class="col-sm-4 col-md-2 center">
+							<img src="images/small3.jpg" data-src="small3.jpg">
+						</div>
+						<div class="col-sm-4 col-md-2 center">
+							<img src="images/small4.jpg" data-src="small4.jpg">
+						</div>
+						<div class="col-sm-4 col-md-2 center">
+							<img src="images/small5.jpg" data-src="small5.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="cardTop">
+					<h3>Halloween Winnie the Pooh &amp; Piglet</h3>
+					<div class="favor">
+						<input type="checkbox" class="hidden fav-check" id="favorite-check1">
+						<label for="favorite-check1">&hearts;</label>
+						<input type="checkbox" class="hidden fav-check" id="favorite-check2">
+						<label for="favorite-check2">&hearts;</label>
+						<input type="checkbox" class="hidden fav-check" id="favorite-check3">
+						<label for="favorite-check3">&hearts;</label>
+						<input type="checkbox" class="hidden fav-check" id="favorite-check4">
+						<label for="favorite-check4">&hearts;</label>
+						<input type="checkbox" class="hidden fav-check" id="favorite-check5">
+						<label for="favorite-check5">&hearts;</label>
+					</div>
+					<ul>
+						<li>Small sized ''Halloween'' plush</li>
+						<li>Embroidered features</li>
+						<li>Soft, squeezable fill with beans in belly</li>
+						<li>Fuzzy plush texturing</li>
+						<li>Pooh &amp; Piglet is plussed with soft body</li>
+						<li>Part of our Disney ''Halloween'' Plush Collection, each sold separately</li>
+					</ul>
+				</div>
+				<div class="top">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-12">
+							<p class="price">$19.99</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-6 center">
+							<div class="button-height">
+								<button id="pooh" class="button button1" onClick="setClass('pooh', 'pooh');">Pooh</button>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-6 center">
+							<div class="button-height">
+								<button id="piglet" class="button button2" onClick="setClass('piglet', 'piglet')">Piglet</button>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-12 center">
+							<button class="buttonAdd buttonAddHoverable" onClick="addedToCart();"><span>Add</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row tabs-list">
+			<div class="col-sm-12 col-md-12 col-lg-3 tab active">Overview</div>
+			<div class="col-sm-12 col-md-12 col-lg-3 tab">Details</div>
+			<div class="col-sm-12 col-md-12 col-lg-3 tab">Buying Options</div>
+			<div class="col-sm-12 col-md-12 col-lg-3 tab">Similar Items</div>
+		</div>
+
+		<div class="row content-list">
+			<div class="col-sm-12 col-md-12 col-lg-12 content active">
+				<div class="card">
+					<h4>Winnie the Pooh Holiday Plush</h4>
+					<h5>Holiday ''hunny'' bear</h5>
+					<p>Soft and oh-so-huggable in his winter best, Pooh is ready to play and brighten your holiday so give this festive plush a gift of cuddles!</p>
+					<h4>Piglet Holiday Plush</h4>
+					<h5>Little softie</h5>
+					<p>Warm and whimsical in his winter best, plush Piglet is ready to play and brighten your blustery holiday!</p>
+				</div>
+
+				<div class="card">
+					<p>Originally from Japan, these ''Halloween'' stackable plush come in all your favorite Disney characters. Collect them all to build a tower of cute and cuddly friends.</p>
+				</div>
+				<div class="card">
+					<h4>Safety</h4>
+					<p>WARNING: CHOKING HAZARD - Small Parts. Not for children under 3 years.</p>
+				</div>
+				<div class="card">
+					<h4>Delivery</h4>
+					<p>Most items ordered via Standard Delivery will arrive within 5-7 business days, personalized items will arrive within 7-9 business days. Exceptions include customized items and items shipped from locations other than our main warehouse. 2-Day Express and 3-Day Express Delivery are also available for an extra charge. Please allow an additional 1-2 business days for personalized express orders to ship.</p>
+				</div>
+				<div class="card">
+					<h4>The bare necessities</h4>
+					<ul>
+						<li>Polyester / plastic pellets</li>
+						<li>5 1/2'' H</li>
+						<li>Imported</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="content">
+				<table>
+					<tr>
+						<th>Size</th>
+						<th>Small sized plush</th>
+					</tr>
+					<tr>
+						<th>Features</th>
+						<th>Embroidered features</th>
+					</tr>
+					<tr>
+						<th>Feelings</th>
+						<th>Soft, squeezable fill with beans in belly</th>
+					</tr>
+					<tr>
+						<th>Texure</th>
+						<th>Fuzzy plush texturing</th>
+					</tr>
+					<tr>
+						<th>The bare necessities</th>
+						<th>
+							<li>Polyester / plastic pellets / ethylene vinyl acetate foam</li>
+							<li>5 1/2" H</li>
+							<li>Imported</li>
+						</th>
+					</tr>
+					<tr>
+						<th>Collection</th>
+						<th>Part of our Share the Magic Collection</th>
+					</tr>
+					<tr>
+						<th>Authenitic</th>
+						<th>''Genuine, Original, Authentic Disney Store'' patch</th>
+					</tr>
+				</table>
+			</div>
+
+			<div class="content">
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-6 center">
+						<div class="buyingOptions">
+							<img src="images/small4.jpg" title="Pooh">
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-6">
+						<div class="cardTop">
+							<h3>Pooh</h3>
+							<ul>
+								<li>Halloween Collection</li>
+								<li>Pooh Body Only</li>
+							</ul>
+						</div>
+						<div>
+							<div class="row">
+								<div class="col-sm-12 col-md-12 col-lg-12">
+									<p class="price">$19.99</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12 col-md-12 col-lg-4 center">
+									<div class="button-height">
+										<button class="button button1 pooh">Pooh</button>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-12 col-lg-4 center">
+									<div class="button-height">
+										<button class="button button2">Piglet</button>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-12 col-lg-4 center">
+									<div class="button-height">
+										<button class="button button3">Both</button>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12 col-md-12 col-lg-12 center">
+									<button class="buttonAdd buttonAddHoverable" onClick="addedToCart();"><span>Add</span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-6 center">
+						<div class="buyingOptions">
+							<img src="images/small5.jpg" title="Piglet">
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-6">
+						<div class="cardTop">
+							<h3>Piglet</h3>
+							<ul>
+								<li>Halloween Collection</li>
+								<li>Piglet Body Only</li>
+							</ul>
+						</div>
+						<div>
+							<div class="row">
+								<div class="col-sm-12 col-md-12 col-lg-12">
+									<p class="price">$19.99</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12 col-md-12 col-lg-4 center">
+									<div class="button-height">
+										<button class="button button1">Pooh</button>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-12 col-lg-4 center">
+									<div class="button-height">
+										<button class="button button2 piglet">Piglet</button>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-12 col-lg-4 center">
+									<div class="button-height">
+										<button class="button button3">Both</button>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12 col-md-12 col-lg-12 center">
+									<button class="buttonAdd buttonAddHoverable" onClick="addedToCart();"><span>Add</span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-6 center">
+						<div class="buyingOptions">
+							<img src="images/small1.jpg" title="Pooh &amp; Piglet">
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-6">
+						<div class="cardTop">
+							<h3>Pooh &amp; Piglet</h3>
+							<ul>
+								<li>Halloween Collection</li>
+								<li>Pooh &amp; Piglet Together</li>
+							</ul>
+						</div>
+						<div>
+							<div class="row">
+								<div class="col-sm-12 col-md-12 col-lg-12">
+									<p class="price">$39.99</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12 col-md-12 col-lg-4 center">
+									<div class="button-height">
+										<button class="button button1">Pooh</button>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-12 col-lg-4 center">
+									<div class="button-height">
+										<button class="button button2">Piglet</button>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-12 col-lg-4 center">
+									<div class="button-height">
+										<button class="button button3 both">Both</button>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12 col-md-12 col-lg-12 center">
+									<button class="buttonAdd buttonAddHoverable" onClick="addedToCart();"><span>Add</span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="accessories">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-4 center">
+							<img src="images/product1.jpg" title="Together">
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-4 center">
+							<img src="images/product2.jpg" title="Above">
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-4 center">
+							<img src="images/product3.jpg" title="Tsum-Tsum">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-4 center">
+							<img src="images/product4.jpg" title="Sitting">
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-4 center">
+							<img src="images/product5.jpg" title="Key-Ring">
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-4 center">
+							<img src="images/product10.jpg" title="Two-Head">
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+
+
+<footer class="footer"><br>&copy; 2016 Karenjw.me<br><br><br></footer>
+
+	
+</body>
+</html>

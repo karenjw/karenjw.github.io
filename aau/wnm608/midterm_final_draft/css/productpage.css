@@ -1,0 +1,267 @@
+* {
+	box-sizing:border-box;
+}
+h3 {
+	color: #e68a00;
+	margin: 10px 0 0 0;
+}
+h4 {
+	color: #e68a00;
+	margin: 5px 0 0 0;
+}
+h5 {
+	margin: 3px 0 0 2px;
+}
+p {
+	padding: 0;
+	margin: 5px 2px;
+	font-size: 15px;
+}
+.center {
+	text-align: center;
+}
+.big-image img {
+	max-width: 80%;
+	max-height: 80%
+	padding-top: 2em;
+	border-radius: 120px;
+	border:4px dashed #ffdd99;
+}
+.small-images img {
+	margin-top: 5px;
+	width:70px;
+	display: inline;
+	border-radius: 40px;
+	border: 4px dotted #ffdd99;
+}
+.cardTop {
+	padding-left:20px;
+	padding-top: 2px;
+	margin: 20px;
+	margin-top: 60px;
+	line-height: 130%;
+}
+.cardTop ul {
+	padding: 0 10px 0 20px;
+}
+li {
+	font-size: 15px;
+}
+.card {
+	background-color:lightyellow;
+	padding-left:15px;
+	padding-right: 10px;
+	padding-top: 0.1em;
+	margin: 10px;
+	border-radius: 10px;
+	border: 1px solid #ffcc66;
+}
+.price {
+	color:#e68a00;
+	font-size: 25px;
+	margin: auto;
+	float: right;
+	padding-right: 60px;
+	font-weight:bold;
+	font-style: oblique;
+}
+/* Hoverable button for "color section", source:w3school.com */
+.button-height {
+	height: 110px;
+}
+.button {
+	background-color: black;
+	color:white;
+	padding: 10px 20px;
+	text-align: center;
+	display: inline-block;
+	margin: 30px 3px;
+	font-size: 15px;
+	font-weight: bold;
+	width: 80%;
+	transition-duration:0.4s;
+	cursor:pointer;
+	border-radius: 20px;
+}
+.button1 {
+	background-color: white;
+	color: black;
+	border:3px solid #ffcc00;
+}
+.top .button1:hover {
+	background-color: #ffcc00;
+	color: white;
+	font-size: 150%;
+}
+.button2 {
+	background-color: white;
+	color: black;
+	border:3px solid #ff6699;
+}
+.top .button2:hover {
+	background-color: #ff6699;
+	color: white;
+	font-size: 150%;
+}
+.button3 {
+	background-color: white;
+	color: black;
+	border:3px solid #ff6600;
+}
+.top .button3:hover {
+	background-color:#ff6600;
+	color: white;
+	font-size: 150%;
+}
+/**/
+/* Animated button "add to cart", source:w3schools.com*/
+.buttonAdd {
+	display: inline-block;
+	border-radius: 20px;
+	background-color: #ffff33;
+	border:2px solid #e68a00;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+	width: 200px;
+	transition:all 0.5s;
+	cursor:pointer;
+	margin: 10px 20px 10px 20px;
+}
+
+.buttonAdd span {
+	color: #e68a00;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition:0.5s;
+}
+.buttonAdd span:after {
+	content: 'to Cart';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -50px;
+	transition:0.5s;
+}
+
+.buttonAddHoverable:hover span {
+	padding-right: 70px;
+}
+.buttonAddHoverable:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+/**/
+.tabs-list {
+	margin: 0;
+	clear: both;
+}
+.tab {
+	background-color:lightyellow;
+	padding: 10px;
+	margin: 20px 0 0 0;
+	color: black;
+	font-weight: bold;
+	display: inline;
+	text-align: center;
+	border-radius: 10px;
+}
+.tab:hover {
+	cursor: pointer;
+	background-color: #ffcc66;
+}
+.tab.active {
+	background-color:#ffeb99;
+	text-decoration: underline;
+}
+.content-list {
+	background-color: white;
+	margin-top: 15px;
+}
+.content {
+	display: none;
+	border-radius: 15px;
+
+}
+.content.active {
+	display: block;
+	background-color:#ffeb99;
+	padding: 10px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	font-family: sans-serif;
+	margin: 10px 0 0 0;
+	font-size: 15px;
+}
+th, td {
+	text-align: left;
+	padding: 10px;
+	font-weight: normal;
+}
+tr:nth-child(even){
+	background-color:#ffcc66;
+}
+.buyingOptions img{
+	width: 320px;
+	height: 320px;
+	margin-top: 30px;
+	border-radius: 100px;
+	border:3px dashed #ffcc66;
+}
+.accessories img{
+	margin: 30px 0 10px 30px;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	border:3px dashed #ffcc66;
+	border-radius: 120px;
+	background-color: #ffeb99;
+	opacity: 0.7;
+}
+.accessories img:hover {
+	border: 23px dotted #ffd633;
+	opacity: 1;
+}
+hr {
+	opacity: 0.5;
+	border-style: dashed;
+	border-color: #e68a00;
+}
+.favor {
+	margin-top: 10px;
+    text-align: left;
+}
+.hidden {
+    display: none;
+}
+
+.fav-check+label {
+    margin: 0.5px 1px;
+    font-size: 1em;
+    color: #ff99bb;
+}
+.fav-check:checked+label {
+    color: #ff1a66;
+}
+
+.pooh {
+	background-color: #ffcc00;
+	color: white;
+	font-size: 150%;
+}
+.piglet {
+	background-color: #ff6699;
+	color: white;
+	font-size: 150%;
+}
+.both {
+	background-color:#ff6600;
+	color: white;
+	font-size: 150%;
+}

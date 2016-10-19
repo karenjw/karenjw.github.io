@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+/* source from W3schools: css responsive image galley*/
+.newin {
+    margin: 10px 50px;
+}
+.newin-img {
+	margin: 10px;
+	border: 1.5px solid #ffd11a;
+    border-radius: 10px;
+}
+.newin-img:hover {
+	border: 15px dotted #ffd633;
+}
+.newin-img img {
+	width: 100%;
+	height: auto;
+    border-radius: 10px 10px 0 0;
+}
+.desc {
+	padding: 3px 10px;
+	text-align: center;
+    color: #ff9900;
+    font-size: 1em;
+}
+.responsive {
+	padding:0 5px;
+	float: left;
+	width: 24.99999%;
+}
+/*source from w3schools*/
+@media only screen and (max-width: 900px){
+    .responsive {
+        width: 49.99999%;
+        margin: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.favor {
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+
+.fav-check+label {
+    margin: 0.5px 1px;
+    font-size: 1em;
+    color: #ff99bb;
+}
+.fav-check:checked+label {
+    color: #ff1a66;
+}
